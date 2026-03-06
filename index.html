@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StreamBuzz - Movie Website</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+
+  <!-- Your CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Header / Navbar -->
+  <header class="bg-dark">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-0">
+        <a class="navbar-brand font-weight-bold" href="#">StreamBuzz</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav"
+          aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#movies">Movies</a></li>
+            <li class="nav-item"><a class="nav-link" href="#genres">Genres</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero-section">
+    <div class="container text-center text-white">
+      <h2 class="mb-3">Explore the World of Cinema with StreamBuzz</h2>
+      <a href="#movies" class="btn btn-light font-weight-bold">Discover Now</a>
+    </div>
+  </section>
+
+  <!-- Featured Movies -->
+  <section class="featured-movies py-5" id="movies">
+    <div class="container">
+      <h2 class="text-white mb-4">Featured Movies</h2>
+
+      <div id="movieCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-4 mb-3">
+                <img class="d-block w-100 img-fluid" src="yatra_2.jpg" alt="Movie 1">
+              </div>
+              <div class="col-md-4 mb-3">
+                <img class="d-block w-100 img-fluid" src="Hanuman.jpg" alt="Movie 2">
+              </div>
+              <div class="col-md-4 mb-3">
+                <img class="d-block w-100 img-fluid" src="Ooru_Peru_Bhairavakona.jpg" alt="Movie 3">
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-4 mb-3">
+                <img class="d-block w-100 img-fluid" src="Naa_saami_ranga.jpg" alt="Movie 4">
+              </div>
+              <div class="col-md-4 mb-3">
+                <img class="d-block w-100 img-fluid" src="tillu.jpg" alt="Movie 5">
+              </div>
+              <div class="col-md-4 mb-3">
+                <img class="d-block w-100 img-fluid" src="om beem bush.jpg" alt="Movie 6">
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-4 mb-3">
+                <img class="d-block w-100 img-fluid" src="PushpaOnPrime.jpg" alt="Movie 7">
+              </div>
+              <div class="col-md-4 mb-3">
+                <img class="d-block w-100 img-fluid" src="guntur_kaaram.jpg" alt="Movie 8">
+              </div>
+              <div class="col-md-4 mb-3">
+                <img class="d-block w-100 img-fluid" src="Saindhav.jpg" alt="Movie 9">
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#movieCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="carousel-control-next" href="#movieCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Genres -->
+  <section class="genres py-5" id="genres">
+    <div class="container">
+      <h2 class="text-white mb-4">Genres</h2>
+
+      <div id="genreCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-4 mb-3">
+                <img class="d-block w-100 img-fluid" src="genre_1.jpg" alt="Genre 1">
+              </div>
+              <div class="col-md-4 mb-3">
+                <img class="d-block w-100 img-fluid" src="genre_2.jpg" alt="Genre 2">
+              </div>
+              <div class="col-md-4 mb-3">
+                <img class="d-block w-100 img-fluid" src="genre_3.jpg" alt="Genre 3">
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-4 mb-3">
+                <img class="d-block w-100 img-fluid" src="genre_4.jpg" alt="Genre 4">
+              </div>
+              <div class="col-md-4 mb-3">
+                <img class="d-block w-100 img-fluid" src="genre_5.jpg" alt="Genre 5">
+              </div>
+              <div class="col-md-4 mb-3">
+                <img class="d-block w-100 img-fluid" src="genre_6.jpg" alt="Genre 6">
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#genreCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="carousel-control-next" href="#genreCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about-us py-5" id="about">
+    <div class="container">
+      <h2 class="text-white mb-3">About Us</h2>
+      <p class="text-white">
+        Welcome to StreamBuzz, where we're dedicated to delivering the latest news, reviews, and trailers from the world
+        of cinema. Our mission is to build a vibrant community of movie enthusiasts who share their passion for films.
+        Join us as we explore the magic of cinema together!
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact (simple placeholder) -->
+  <section class="py-5" id="contact">
+    <div class="container text-white">
+      <h2 class="mb-3">Contact Us</h2>
+      <p>Email: support@streambuzz.com</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      <p class="mb-0">&copy; 2024 StreamBuzz Website. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- Your JS -->
+  <script src="script.js"></script>
+</body>
+</html>
